@@ -1,0 +1,40 @@
+{
+  "model_name": "ResNet50_MultiCrop_Disease_Classifier",
+  "input_shape": "(None, 224, 224, 3)",
+  "output_shape": "(None, 37)",
+  "total_parameters": 24121765,
+  "trainable_parameters": 534053,
+  "non_trainable_parameters": 23587712,
+  "layers": [
+    {
+      "name": "input_image",
+      "type": "InputLayer",
+      "output_shape": "N/A"
+    },
+    {
+      "name": "resnet50",
+      "type": "Functional",
+      "output_shape": "(None, 7, 7, 2048)"
+    },
+    {
+      "name": "global_avg_pooling2d",
+      "type": "GlobalAveragePooling2D",
+      "output_shape": "N/A"
+    },
+    {
+      "name": "dense_256_relu",
+      "type": "Dense",
+      "output_shape": "N/A"
+    },
+    {
+      "name": "dropout_0.5",
+      "type": "Dropout",
+      "output_shape": "N/A"
+    },
+    {
+      "name": "disease_prediction",
+      "type": "Dense",
+      "output_shape": "N/A"
+    }
+  ]
+}

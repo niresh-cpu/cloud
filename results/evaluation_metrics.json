@@ -1,0 +1,92 @@
+{
+  "test_accuracy": 0.864,
+  "macro_precision": 0.8492,
+  "macro_recall": 0.8505,
+  "macro_f1": 0.8412,
+  "weighted_precision": 0.866,
+  "weighted_recall": 0.864,
+  "weighted_f1": 0.8582,
+  "total_test_samples": 272,
+  "total_classes_evaluated": 37,
+  "best_performing_classes": [
+    {
+      "class_name": "Corn_(maize)___healthy",
+      "f1_score": 1.0,
+      "support": 5.0
+    },
+    {
+      "class_name": "Grape___Leaf_blight_(Isariopsis_Leaf_Spot)",
+      "f1_score": 1.0,
+      "support": 5.0
+    },
+    {
+      "class_name": "Rice___Bacterial_Blight",
+      "f1_score": 1.0,
+      "support": 6.0
+    },
+    {
+      "class_name": "Rice___Brown_Spot",
+      "f1_score": 1.0,
+      "support": 6.0
+    },
+    {
+      "class_name": "Rice___Leaf_Smut",
+      "f1_score": 1.0,
+      "support": 6.0
+    }
+  ],
+  "worst_performing_classes": [
+    {
+      "class_name": "Tomato___Tomato_mosaic_virus",
+      "f1_score": 0.6666666666666666,
+      "support": 5.0
+    },
+    {
+      "class_name": "Grape___Black_rot",
+      "f1_score": 0.5714285714285714,
+      "support": 5.0
+    },
+    {
+      "class_name": "Tomato___Target_Spot",
+      "f1_score": 0.4444444444444444,
+      "support": 5.0
+    },
+    {
+      "class_name": "Grape___Esca_(Black_Measles)",
+      "f1_score": 0.2857142857142857,
+      "support": 5.0
+    },
+    {
+      "class_name": "Tomato___Early_blight",
+      "f1_score": 0.25,
+      "support": 5.0
+    }
+  ],
+  "common_misclassifications": [
+    {
+      "pair": "Grape___Esca_(Black_Measles) -> Grape___Black_rot",
+      "count": 4
+    },
+    {
+      "pair": "Potato___Late_blight -> Potato___Early_blight",
+      "count": 2
+    },
+    {
+      "pair": "Tomato___Bacterial_spot -> Tomato___Target_Spot",
+      "count": 2
+    },
+    {
+      "pair": "Tomato___Early_blight -> Tomato___Late_blight",
+      "count": 2
+    },
+    {
+      "pair": "Apple___Apple_scab -> Peach___healthy",
+      "count": 1
+    }
+  ],
+  "diagnostics": {
+    "overfitting_analysis": "Training and validation metrics show tight tracking without severe divergence, demonstrating effective regularization via Dropout(0.5), small augmentations, and early stopping.",
+    "underfitting_analysis": "ResNet-50 ImageNet representations provide strong convergence on leaf vein, margin, and lesion texture patterns.",
+    "limitations": "Visual symptoms with similar geometric necrotic spots across related crops (e.g., Tomato vs Potato Early Blight) require careful foliar shape discrimination."
+  }
+}

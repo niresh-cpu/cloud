@@ -1,0 +1,38 @@
+Plant Name,Disease Name,Number of Images
+Apple,Apple Scab,80
+Apple,Black Rot,80
+Apple,Cedar Apple Rust,80
+Apple,Healthy,80
+Blueberry,Healthy,30
+Cherry (including sour),Healthy,30
+Cherry (including sour),Powdery Mildew,30
+Corn (Maize),Cercospora Leaf Spot (Gray Leaf Spot),30
+Corn (Maize),Common Rust,30
+Corn (Maize),Healthy,30
+Corn (Maize),Northern Leaf Blight,30
+Grape,Black Rot,30
+Grape,Esca (Black Measles),30
+Grape,Healthy,30
+Grape,Leaf Blight (Isariopsis Leaf Spot),30
+Peach,Bacterial Spot,80
+Peach,Healthy,30
+"Pepper, Bell",Bacterial Spot,80
+"Pepper, Bell",Healthy,80
+Potato,Early Blight,80
+Potato,Healthy,80
+Potato,Late Blight,80
+Rice,Bacterial Blight,40
+Rice,Brown Spot,40
+Rice,Leaf Smut,39
+Strawberry,Healthy,30
+Strawberry,Leaf Scorch,30
+Tomato,Bacterial Spot,80
+Tomato,Early Blight,30
+Tomato,Healthy,30
+Tomato,Late Blight,80
+Tomato,Leaf Mold,30
+Tomato,Septoria Leaf Spot,30
+Tomato,Spider Mites (Two-Spotted Spider Mite),30
+Tomato,Target Spot,30
+Tomato,Tomato Mosaic Virus,30
+Tomato,Tomato Yellow Leaf Curl Virus,30

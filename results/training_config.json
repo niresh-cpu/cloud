@@ -1,0 +1,19 @@
+{
+  "architecture": "ResNet-50 Transfer Learning",
+  "input_shape": [
+    224,
+    224,
+    3
+  ],
+  "total_classes": 37,
+  "batch_size": 32,
+  "stage1_epochs_run": 6,
+  "stage2_epochs_run": 4,
+  "stage1_lr": 0.0001,
+  "stage2_lr": 1e-05,
+  "best_validation_accuracy": 0.828,
+  "best_validation_epoch": 10,
+  "final_training_accuracy": 0.9392,
+  "final_training_loss": 0.2197,
+  "final_validation_loss": 0.4752
+}

@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+
+# Datasets raw caches (keep processed and structure)
+datasets/raw/*.zip
+
+# Model files over GitHub 100MB limit (TFLite models are kept)
+*.keras
+models/*.keras
+
+# Node
+frontend/node_modules/
+frontend/dist/
+.npm
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db

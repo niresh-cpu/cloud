@@ -1,0 +1,25 @@
+{
+  "total_images": 1134,
+  "total_classes": 37,
+  "total_crops": 11,
+  "total_healthy_images": 295,
+  "total_diseased_images": 839,
+  "imbalance_ratio": 1.6,
+  "crops": [
+    "Apple",
+    "Blueberry",
+    "Cherry (including sour)",
+    "Corn (maize)",
+    "Grape",
+    "Peach",
+    "Pepper, bell",
+    "Potato",
+    "Rice",
+    "Strawberry",
+    "Tomato"
+  ],
+  "source_contributions": {
+    "PlantVillage Dataset": 1015,
+    "Rice Leaf Disease Dataset": 119
+  }
+}
