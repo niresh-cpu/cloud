@@ -332,3 +332,24 @@ pytest tests/test_pipeline.py -v
 ---
 
 *AgriVision AI · IA-3 Deep Learning Skill-Based Evaluation · 25 Marks Project*
+## ETL Pipeline
+
+### 1. Extract
+- Collect plant leaf images from PlantVillage
+  and Rice Leaf Disease datasets.
+
+### 2. Transform
+- Validate the images.
+- Resize images to 224 x 224 pixels.
+- Apply the model's preprocessing.
+- Organize images by disease class.
+- Split data into training, validation,
+  and testing sets (70/15/15).
+
+### 3. Load
+- Load prepared images and labels into
+  the ResNet-50 training pipeline.
+
+### 4. Output
+- Train and evaluate the leaf disease
+  classification model.
